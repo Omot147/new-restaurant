@@ -1,5 +1,5 @@
 import "./styles.css";
-import { Home } from './home.js';
+import { Home } from './pages/home.js';
 
 const myHome = document.getElementById('btn1');
 const myAbout = document.getElementById('btn2');
@@ -14,10 +14,5 @@ document.addEventListener("DOMContentLoaded", () => {
 myHome.addEventListener('click', () => {
     Home.reset();
     Home.loadHome();
-});
-
-myAbout.addEventListener('click', () => {
-    Home.reset();
-    Home.loadAbout();
 });
 console.log("Hello, welcome to My Restaurant!");
