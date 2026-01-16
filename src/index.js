@@ -1,5 +1,5 @@
 import "./styles.css";
-import { Home } from './pages/home.js';
+import { Home } from './home.js';
 
 const myHome = document.getElementById('btn1');
 const myAbout = document.getElementById('btn2');
