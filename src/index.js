@@ -39,4 +39,3 @@ myContact.addEventListener('click', () => {
     myContact.style.backgroundColor = "orange";
     myContact.style.color = "white";
 });
-console.log("Hello, welcome to My Restaurant!");
